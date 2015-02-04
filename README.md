@@ -1,4 +1,4 @@
-slides for technical.ly net/work job fair about web accessibilty. 
+Slides for my presentation at the Technical.ly Net/Work job fair about web accessibilty. 
 
 Some of the presentation is borrowed from the Girl Develop It core Web Accessibilty class https://github.com/girldevelopit/girldevelopit-rdu-access
 
