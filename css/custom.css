@@ -20,9 +20,11 @@ section.slide1.present {background: #fff;}
 
 .reveal {color: #403E3F;}
 
+.reveal h1 {font-size: 3em; color: #403e3f;}
+
 .reveal h2 {color: #258EA6;}
 
-.reveal h3 {}
+.reveal h3 {color: #99cc33;}
 
 .reveal a:not(.image) {color: #17BEBB; text-decoration: underline;}
 
@@ -31,6 +33,8 @@ section.slide1.present {background: #fff;}
 .reveal a:not(.image):focus {background: #fab3a9;}
 
 .reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {color: #17BEBB;}
+
+.reveal .progress span {background: #F55E63;}
 
 .reveal section img {border: none; box-shadow: none;}
 
