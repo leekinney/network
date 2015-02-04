@@ -1,0 +1,31 @@
+/*.slides section::after {content: ""; background: url(../img/background-bayada-logo.png) no-repeat; opacity: 0.5; top: 0; left: 0; bottom: 0; right: 0; position: absolute; z-index: -1; background-position: 100% 100%; }*/
+
+section.slide1.present img.main-logo, section.present img.background-logo {border: none; box-shadow: none; }
+
+section.slide1.present img.main-logo {margin-right: 15%;}
+
+section.present img.background-logo {position: absolute; right: 0;}
+
+section.slide1.present {background: #fff;}
+
+.reveal {color: #403E3F;}
+
+.reveal h2 {color: #258EA6;}
+
+.reveal h3 {}
+
+.reveal a:not(.image) {color: #17BEBB; text-decoration: underline;}
+
+.reveal a:not(.image):hover {text-decoration: underline; color: #CD5334;}
+
+.reveal a:not(.image):focus {background: #fab3a9;}
+
+.reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {color: #17BEBB;}
+
+p.credit {font-size: 14px; }
+
+p.virgin {font-size: 16px;}
+
+.tweet-embed {margin-left: 20%;}
+
+.italics {font-style: italic;}
