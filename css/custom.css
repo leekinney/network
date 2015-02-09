@@ -65,3 +65,5 @@ h2.contrast {margin-bottom: 40px;}
 .contrast1 p, .contrast2 p {font-size: 18px; line-height: 150%;}
 
 .contrast2 {width: 45%; float: left; background: #ebebeb; color: #444; }
+
+.reveal code {font-size: 1.15em;}
