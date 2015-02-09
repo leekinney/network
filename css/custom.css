@@ -45,3 +45,25 @@ p.virgin {font-size: 16px;}
 .tweet-embed {margin-left: 20%;}
 
 .italics {font-style: italic;}
+
+span.large {font-size: 1.5em; color: #111;}
+
+p.useful {clear: both; margin-top: 40px;}
+
+ul.tools {margin-top: 30px;}
+
+ul.tools li {list-style: none;}
+
+ul.tools li a {font-size: 0.7em;}
+
+.pink {color: #f55e63;}
+
+h2.contrast {margin-bottom: 40px;}
+
+.contrast1 {width: 45%; background: #dbdbdb; color: #646464; padding: 10px; float: left;}
+
+.contrast1 p, .contrast2 p {font-size: 18px; line-height: 150%;}
+
+.contrast2 {width: 45%; float: left; background: #ebebeb; color: #444; }
+
+.reveal code {font-size: 1.15em;}
