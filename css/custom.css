@@ -26,6 +26,8 @@ section.slide1.present {background: #fff;}
 
 .reveal h3 {color: #99cc33;}
 
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {line-height: 1em;}
+
 .reveal a:not(.image) {color: #17BEBB; text-decoration: underline;}
 
 .reveal a:not(.image):hover {text-decoration: underline; color: #CD5334;}
@@ -67,3 +69,9 @@ h2.contrast {margin-bottom: 40px;}
 .contrast2 {width: 45%; float: left; background: #ebebeb; color: #444; }
 
 .reveal code {font-size: 1.15em;}
+
+li.fragment {line-height: 1.3em;}
+
+.reveal a:not(.image).twitter {text-decoration: none;}
+
+.reveal a:not(.image).twitter:hover {text-decoration: underline;}

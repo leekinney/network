@@ -24,7 +24,8 @@
 					<h2>Web Accessibility</h2>
 					<h3>2.10.15</h3>
 					<a href='http://www.girldevelopit.com/'><img src='img/gdi-logo.png' class='gdi-logo' alt='girl develop it logo'></a>
-					<h4><a href='https://twitter.com/_leekinney'>@_leekinney</a></h4>
+					<h4><a href='https://twitter.com/_leekinney' class='twitter'>@_leekinney</a></h4>
+					<h4><a href='http://ph.ly/network-web-accessibility'>ph.ly/network-web-accessibility</a></h4>
 				</section>
 
 				<section>
@@ -35,7 +36,8 @@
 					<h2>About me</h2>
 						<ul>
 							<li class='fragment'>Front-end Developer</li>
-							<li class='fragment'>GDI Philly Events Organizer</li>
+							<li class='fragment'>GDI Philly Events Coordinator</li>
+							<li class='fragment'>LadyHacks &amp; WITS Organizer</li>
 							<li class='fragment'>Web Accessibility Advocate</li>
 						</ul>
 				</section>
@@ -47,7 +49,7 @@
 						<li class='fragment'>Why is this important?</li>
 						<li class='fragment'>We'll look at some examples.</li>
 						<li class='fragment'>Introduce some tools &amp; techniques.</li>
-						<li class='fragment'>Questions</li>
+						<li class='fragment'>Questions.</li>
 					</ul>
 				</section>
 
@@ -88,15 +90,20 @@
 					<img src='img/united-states-map.png' alt='' width='900' height='571'>
 
 					<p class='credit'><a href="http://www.census.gov/newsroom/releases/archives/facts_for_features_special_editions/cb10-ff13.html" target="_blank">source</a></p>
+				</section>
 
-					<aside class='notes'>
+				<section>
+					<h2>A few more reasons...</h2>
 						<ul>
-							<li>Expand our potential audience! 54 million people in the US have a disability, 1.8 million are unable to see printed words, and 16.1 million have a cognitive or mental illness that impedes daily functioning</li>
-							<li>Be in compliance with legal guidelines, like Section 504 and 508 compliance.</li>
-							<li>Avoid potential lawsuits.</li>
-							<li>Do the right thing.	</li>
+							<li class='fragment'>Expand your potential audience!</li>
+							<li class='fragment'>Be in compliance with legal guidelines, like Section 504 and 508.</li>
+							<li class='fragment'>Avoid potential lawsuits.</li>
+								<ul>
+									<li class='fragment'><a href='http://www.w3.org/WAI/bcase/socog-case-study'>Sydney Olympics</a></li>
+									<li class='fragment'><a href='http://arstechnica.com/uncategorized/2008/08/target-to-pay-6-million-to-settle-site-accessibility-suit/'>Target.com</a></li>
+								</ul>
+							<li class='fragment'>Do the right thing.	</li>
 						</ul>
-					</aside>
 				</section>
 
 				<section>
@@ -152,7 +159,6 @@
 						<li class="fragment">context.</li>
 						<li class="fragment">function not content.</li>
 						<li class="fragment">If an image is purely decorative, use "" to instruct a screen reader to skip it.</li>
-						<!-- <li class="fragment">Instead of using &ldquo;longdesc,&rdquo; provide a caption or link.</li> -->
 					</ul>
 					<pre><code data-trim>
 						<p>&#60;img src="img/twitter-logo.png" alt="follow us on twitter"&#62;</p>
@@ -171,8 +177,6 @@
 
 				<section>
 					<h2 class='contrast'>Provide contrast</h2>
-					<!-- <img class='contrast' src="img/contrast.png" alt="Crosswalk with contrasting colors"> -->
-					<!-- <p class="credit">Photo credit: <a href="http://www.flickr.com/photos/antifluor/2074560932/" target="_blank">antifluor</a> <a href="http://creativecommons.org/licenses/by/2.0/" target="_blank">cc</a></p> -->
 					<div class='contrast1'>
 						<p>The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</p>
 					</div>
@@ -209,7 +213,9 @@
 						</ul>
 				</section>
 
-				<section data-background-video="web-aim-recording.mp4">
+				<section>
+					<h2>Removing :focus</h2>
+					<h3 class='fragment'>Hint: Don't do it. <span class='fragment'>Ever!</span></h3>
 				</section>
 
 				<section>
@@ -228,11 +234,11 @@
 	overflow:hidden;
 }</code></pre>
 						<p class='fragment'><a href='http://webaim.org/techniques/css/invisiblecontent/'>More info on hiding content</a></p>
-
+						<p class='fragment'><a href='http://css-tricks.com/places-its-tempting-to-use-display-none-but-dont/'>CSS Tricks - Places it's tempting to use display: none; but don't</a></p>
 				</section>
 
 				<section>
-					<h2>Navigation</h2>
+					<h2>Accessible Navigation</h2>
 					<ul>
 						<li>"Skip to main content" links</li>
 						<li>Hover navigation</li>
@@ -241,12 +247,6 @@
 				</section>
 
 				<!-- Hearing disabilities-->
-
-				<!-- <section>
-					<h2>Provide good captions</h2>
-					<img src="img/in_ur_reality.png" alt="Stick figure attaching captions to cats. Dialog- Man: Oh hi; I'm here from the internet; Man 2: What are you doing!?; Man: Gluing captions to your cats."/>
-					<p class="credit">Credit: <a href="http://xkcd.com/262/" target="_blank">Randall Munroe</a> <a href="http://creativecommons.org/licenses/by-nc/2.5/" target="_blank">cc</a></p>
-				</section> -->
 
 				<section>
 					<h2>Dealing with Hearing Disabilities</h2>
@@ -258,11 +258,6 @@
 				</section>
 
 				<!-- Physical disabilities-->
-				<!-- <section>
-					<h2>Mice are Scary</h2>
-					<img src="img/stormtroopermouse.jpg" alt="Two stormtrooper figurines jumping away from a plastic mouse"/>
-					<p class="credit">Photo credit: <a href="http://www.flickr.com/photos/st3f4n/4286044406/" target="_blank">St&#233;fan</a> <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">cc</a></p>
-				</section> -->
 
 				<section>
 					<h2>Dealing with Physical Disabilities</h2>
@@ -315,33 +310,6 @@
 
 				</section>
 
-				<!-- <section>
-					<h2>SEO Benefits</h2>
-						<h3>Link text:</h3>
-							<ul>
-								<li class='fragment'>informs search engines of where hyperlinks are directed</li>
-								<li class='fragment'>search engines are like screen readers or text-to-speech platforms and are only able to read the HTML code verbatim</li>
-								<li class='fragment'>context matters to search engines</li>
-								<li class='fragment'>If your link text reads, &ldquo;Click here&rdquo;, the search engine will interpret this as the title or subject of the page to which you're linking</li>
-								<li class='fragment'>More specific link text, such as, &ldquo;Top 5 Reasons to start a career in home healthcare&rdquo;, allows the search engine to identify career in home healthcare as the topic and factor it into your site’s ranking when users search for &ldquo;home healthcare&rdquo; or &ldquo;home healthcare careers&rdquo;</li>
-							</ul>
-				</section>
-
-				<section>
-					<h3>Image descriptions:</h3>
-						<ul>
-							<li class='fragment'>providing an accurate file name and descriptive &ldquo;alt&rdquo; text allows search engines to identify that your site includes relevant images that support its content and relevancy</li>
-						</ul>
-						<h3 class='fragment'>Semantic markup:</h3>
-						<ul>
-							<li class='fragment'>search engines crawl websites' HTML semantically</li>
-							<li class='fragment'>most important content should be clearly labelled near the top of the page's HTML</li>
-							<li class='fragment'>don't use header tags out of order</li>
-							<li class='fragment'>don't use header tags to style (that's what CSS is for)</li>
-						</ul>
-						<p class='credit fragment'><a href='http://blog.siteimprove.co.uk/how-website-accessibility-can-boost-your-seo'>Further reading and where I stole this from. :)</a></p>
-				</section> -->
-
 				<!-- Final slides-->
 				<section>
 					<h2>To sum it all up</h2>
@@ -355,7 +323,7 @@
 							<li><a href='https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?hl=en'>Chrome | Color Contrast Checker</a></li>
 							<li><a href='https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en'>Chrome | Accessibility Dev Tools</a></li>
 							<li><a href='https://addons.mozilla.org/en-US/firefox/addon/accessibility-evaluation-toolb/'>Firefox | Accessibility Evaluation Toolbar</a></li>
-							<li><a href='http://wave.webaim.org/toolbar/'>Wave Toolbar (available as a Chrome or Firefox Extension or bookmarklet</a></li>
+							<li><a href='http://wave.webaim.org/toolbar/'>Wave Toolbar (available as a Chrome or Firefox Extension or bookmarklet)</a></li>
 							<li><a href='https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en'>ChromeVox</a></li>
 							<li><a href='https://addons.mozilla.org/en-US/firefox/addon/fangs-screen-reader-emulator/?src=search'>Firefox | Fangs</a></li>
 							<li><a href='https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en&gl=US'>Chrome | No Coffee (low-vision simulator)</a></li>
@@ -365,10 +333,10 @@
 				<section>
 					<h2>Resources</h2>
 						<ul>
-							<li class="fragment"><a href="http://www.nvda-project.org/" target="_blank">NonVisual Desktop Access (NVDA)</a>,a free and open source screen reader for Windows.</li>
-							<li class="fragment"><a href="http://www.w3.org/WAI/" target="_blank">W3C Web Accessibility Initiative (WAI).</a></li>
+							<li class="fragment"><a href="http://www.nvda-project.org/" target="_blank">NonVisual Desktop Access (NVDA)</a>, a free and open source screen reader for Windows.</li>
+							<li class="fragment"><a href="http://www.w3.org/WAI/" target="_blank">W3C Web Accessibility Initiative (WAI)</a></li>
 							<li class="fragment"><a href="http://webaim.org/" target="_blank">WebAIM</a>, an accessibility-focused organization with great information.</li>
-							<li class="fragment"><a href="http://design4access.nomensa.com/checklist.html" target="_blank">Accessibilty Checklist</a></li>
+							<li class="fragment"><a href="http://design4access.nomensa.com/checklist.html" target="_blank">Accessibility Checklist</a></li>
 							<li class='fragment'><a href='http://webaim.org/resources/designers/#infographic'>Web Accessibility for Designers</a></li>
 						</ul>
 				</section>
@@ -377,10 +345,21 @@
 					<h2>Thank you!</h2>
 						<ul>
 							<li class='fragment'><a href='http://www.meetup.com/Girl-Develop-It-Philadelphia/'>Keep an eye on GDI Philly</a></li>
-							<li class='fragment'>March 3.25.15 - Web Accessibility class</li>
-							<li class='fragment'><a href='http://phillywomenintech.com/2015/01/17/h-web-accessibility/'>Philly Women in Tech Summit</a></li>
-							<li class='fragment'><a href='https://www.twitter.com/_leekinney'>Tweet at me! @_leekinney</a></li>
-							<li class='fragment'><a href=''>http://ph.ly/network-web-accessibility</a></li>
+							<li class='fragment'>March 25 - Web Accessibility class</li>
+							<li class='fragment'>April 18 <a href='http://phillywomenintech.com/2015/01/17/h-web-accessibility/'>Philly Women in Tech Summit</a></li>
+							<li class='fragment'><a href='https://www.twitter.com/_leekinney' class='twitter'>Tweet at me! @_leekinney</a></li>
+							<li class='fragment'><a href='http://ph.ly/network-web-accessibility'>ph.ly/network-web-accessibility</a></li>
+						</ul>
+				</section>
+
+				<section>
+					<h2>Questions?</h2>
+						<ul class='fragment'>
+							<li><a href='http://www.meetup.com/Girl-Develop-It-Philadelphia/'>GDI Philly</a></li>
+							<li>March 25 - Web Accessibility class</li>
+							<li>April 18 <a href='http://phillywomenintech.com/2015/01/17/h-web-accessibility/'>Philly Women in Tech Summit</a></li>
+							<li><a href='https://www.twitter.com/_leekinney' class='twitter'>@_leekinney</a></li>
+							<li><a href='http://ph.ly/network-web-accessibility'>ph.ly/network-web-accessibility</a></li>
 						</ul>
 				</section>
 
